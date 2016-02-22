@@ -6,8 +6,8 @@ This repository contains data and analysis of historic presidential primary poll
 
 Data is indexed in a hierarchy of files:
 * all.races.tsv : contains a tab delimited list of all races, the party, year, and winner
-* *.*.list (ex: REPS.1960.list) : contains links to each polling result from that race
-* */*.out (ex: REPS/1958.01.22.out) : contains tab separated polling percentages for that poll
+* (ex: REPS.1960.list) : contains links to each polling result from that race
+* (ex: REPS/1958.01.22.out) : contains tab separated polling percentages for that poll
 * plot_split.R : Script to read each file in turn and produce graphics.
 
 ## Data collection
